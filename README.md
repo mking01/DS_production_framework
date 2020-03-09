@@ -1,4 +1,4 @@
-# coronavirus_production_DS_project
+# Coronavirus Predictions - Production DS Project
 
 # Goal
 The goal of this project is to practice coding for data science production projects.  This includes:
