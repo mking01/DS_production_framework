@@ -1,4 +1,4 @@
-### *patient*: 7382 confirmed participants as of March 9, 2020.
+### **patient**: 7382 confirmed participants as of March 9, 2020.
 - id: patient ID
 - sex: patient gender
 - birth_year: patient birth year
@@ -39,7 +39,7 @@
   - released: discharged (uncontained)
   - deceased: passed away
 
-### *route:* Information about the path of the patient.
+### **route:** Information about the path of the patient.
 - id: Patient ID
 - date: travel date
 - province: state or province visited
@@ -64,7 +64,7 @@
 - latitude: latitude of location visited
 - longitude: longitude of location visited
 
-### *time:* Daily testing results and status information.
+### **time:** Daily testing results and status information.
 - date
 - acc_test: Cumulative checks, including ongoing checks
 - acc_negative: Cumulative negative results
@@ -77,7 +77,7 @@
 - new_released: New quarantines released
 - new_deceased: New deaths
 
-### *trend:* Keyword search volume information for COVID-19 by date.
+### **trend:** Keyword search volume information for COVID-19 by date.
 - date
 - cold: Cold search volume
 - flu: Flu search volume
