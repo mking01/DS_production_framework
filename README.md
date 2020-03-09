@@ -2,7 +2,7 @@
 
 ### Technical Skills Goal
 The goal of this project is to practice coding for data science production projects.  This includes:
-- building a framework
+- building a production framework
 - connecting framework files and parts to one another (e.g. import configs into main .py script)
 - constructing modularized code
 - using pipelines to process and model data for simplicity and maintainability
