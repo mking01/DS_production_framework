@@ -23,3 +23,5 @@ Data for this project is pulled from an open source dataset provided by the Kore
 - tests: contains all tests used to check code and data for the project, such as unit tests
 - documentation: contains all notes about the project, the code, and the problem context
 
+### Resources
+Modeling disease transmission: https://systems.jhu.edu/research/public-health/ncov-model-2/
