@@ -1,14 +1,16 @@
 # Coronavirus Predictions - Production DS Project
 
-### Goal
+### Technical Skills Goal
 The goal of this project is to practice coding for data science production projects.  This includes:
 - building a framework
-- connecting files to one another
+- connecting framework files and parts to one another (e.g. import configs into main .py script)
 - constructing modularized code
 - using pipelines to process and model data for simplicity and maintainability
-- practice creating unit tests
+- creating unit tests
+- using classes / OOP to manage and manipulate data
 
-The problem solved in this project is predicting which patients test positive for COVID-19 in South Korea.
+### Project Goal
+This project aims to predict whether patients being tested for COVID-19 should be quarantined or released based on their interaction patterns, health indicators, and travel patterns.
 
 ### Data
 Data for this project is pulled from an open source dataset provided by the Korean Center for Disease Control.  It is available on Github here: https://github.com/jihoo-kim/Coronavirus-Dataset.
