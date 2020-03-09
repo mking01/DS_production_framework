@@ -1,6 +1,6 @@
 # Coronavirus Predictions - Production DS Project
 
-# Goal
+### Goal
 The goal of this project is to practice coding for data science production projects.  This includes:
 - building a framework
 - connecting files to one another
@@ -10,10 +10,10 @@ The goal of this project is to practice coding for data science production proje
 
 The problem solved in this project is predicting which patients test positive for COVID-19 in South Korea.
 
-# Data
+### Data
 Data for this project is pulled from an open source dataset provided by the Korean Center for Disease Control.  It is available on Github here: https://github.com/jihoo-kim/Coronavirus-Dataset.
 
-# Folders
+### Folders
 - data: stores all data files (in real life, data would likely be pulled in through a cloud or database connection)
 - notebooks: stores all notebooks used for analysis and data discovery
 - src: all source code used for production
