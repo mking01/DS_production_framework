@@ -15,6 +15,7 @@ class Patient:
     deceased_date (date): date passed away
     state (string): outcome - released, isolated, deceased
     '''
+
     def __init__(self, id, sex, birth_year, region, group, infection_reason, infection_order, contact_number,
                  released_date, deceased_date, state):
         self.id = id
@@ -28,3 +29,10 @@ class Patient:
         self.released_date = released_date
         self.deceased_date = deceased_date
         self.state = state
+        self.age = []
+
+        def get_age(self):
+            #import datetime as datetime
+            #today = datetime.now()
+            self.age.append(0) #today.dt.year - self.birth_year
+            return self.age
