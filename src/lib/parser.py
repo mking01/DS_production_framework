@@ -5,9 +5,14 @@ import pandas as pd
 from configs import path, patient_file#, route_file, time_file, trend_file
 from Patient import Patient
 
-patients_df = pd.read_csv(path + patient_file)
-print(patients_df.head())
+patients_df = pd.read_csv(path + patient_file).head(1)
 
+
+# Clean and prep data
+
+
+
+# Create patient class
 # read patient rows into patient class
 for index, row in patients_df.iterrows():
 
@@ -33,7 +38,12 @@ for index, row in patients_df.iterrows():
                        contact_number=contact_number, released_date=released_date, deceased_date=deceased_date,
                        state=state)
 
+    print(patient.get_age())
     # append patient to list of patients
-    patients.append(patient)
+    #patients.append(patient)
 
-print(patients)
+    #for i in range(len(patients)):
+    #    print(patients[i].age)
+
+
+# Run ETL pipeline
