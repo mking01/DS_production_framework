@@ -9,7 +9,9 @@ The goal of this project is to practice coding for data science production proje
 - creating unit tests
 - using classes / OOP to manage and manipulate data
 
-### Project Goal
+The goal of this project is NOT to position myself as a pseudo-epidemiologist or coroanvirus predictive modeling expert.  Simply used an available, current dataset for a skills development opportunity.
+
+### Model Goal
 This project aims to predict whether patients being tested for COVID-19 should be quarantined or released based on their interaction patterns, health indicators, and travel patterns.
 
 ### Data
